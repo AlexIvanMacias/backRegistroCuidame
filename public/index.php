@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 define('LARAVEL_START', microtime(true));
 
 // permite peticiones desde cualquier origen
-header('Access-Control-Allow-Origin: *');
 // permite peticiones con métodos GET, PUT, POST, DELETE y OPTIONS
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 // permite los headers Content-Type y Authorization
